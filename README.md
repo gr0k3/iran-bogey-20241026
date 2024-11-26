@@ -4,7 +4,7 @@ Someone on Reddit suggests an [Israeli F-35 was seen over Daraa, Syria](https://
 Applying the [Sagan](https://en.wikipedia.org/wiki/Carl_Sagan) standard ([extraordinary claims require extraordinary evidence](https://en.wikipedia.org/wiki/Extraordinary_claims_require_extraordinary_evidence)), lets assume "no" and instead do what the military does and refer to the unidentified aircraft as a a "bogey" for the time being and see if can extract the answer from the video.
 
 <figure>
-    <img src="readme-bogey_010.png"
+    <img src="./ffmpeg-out/readme-bogey_010.png"
          alt="Original bogey video downloaded from Reddit">
     <figcaption>Original bogey video downloaded <a href="https://www.reddit.com/r/aviation/comments/1gcaxaj/israeli_f35_seen_over_daraa_syria_26_oct_2024/">from Reddit</a>.</figcaption>
 </figure>
@@ -101,83 +101,5 @@ ffmpeg can turn the MP4 video into a bunch of JPEG images using the following co
 ```bash
 ffmpeg -i bogey.mp4 -qscale:v 2 bogey_%03d.jpg
 ```
-Output arranged in a gallery:
-
-<img src="bogey_001.jpg" width="15%" alt="bogey_001.jpg"/>
-<img src="bogey_002.jpg" width="15%" alt="bogey_002.jpg"/>
-<img src="bogey_003.jpg" width="15%" alt="bogey_003.jpg"/>
-<img src="bogey_004.jpg" width="15%" alt="bogey_004.jpg"/>
-<img src="bogey_005.jpg" width="15%" alt="bogey_005.jpg"/>
-<img src="bogey_006.jpg" width="15%" alt="bogey_006.jpg"/>
-<img src="bogey_007.jpg" width="15%" alt="bogey_007.jpg"/>
-<img src="bogey_008.jpg" width="15%" alt="bogey_008.jpg"/>
-<img src="bogey_009.jpg" width="15%" alt="bogey_009.jpg"/>
-<img src="bogey_010.jpg" width="15%" alt="bogey_010.jpg"/>
-<img src="bogey_011.jpg" width="15%" alt="bogey_011.jpg"/>
-<img src="bogey_012.jpg" width="15%" alt="bogey_012.jpg"/>
-<img src="bogey_013.jpg" width="15%" alt="bogey_013.jpg"/>
-<img src="bogey_014.jpg" width="15%" alt="bogey_014.jpg"/>
-<img src="bogey_015.jpg" width="15%" alt="bogey_015.jpg"/>
-<img src="bogey_016.jpg" width="15%" alt="bogey_016.jpg"/>
-<img src="bogey_017.jpg" width="15%" alt="bogey_017.jpg"/>
-<img src="bogey_018.jpg" width="15%" alt="bogey_018.jpg"/>
-<img src="bogey_019.jpg" width="15%" alt="bogey_019.jpg"/>
-<img src="bogey_020.jpg" width="15%" alt="bogey_020.jpg"/>
-<img src="bogey_021.jpg" width="15%" alt="bogey_021.jpg"/>
-<img src="bogey_022.jpg" width="15%" alt="bogey_022.jpg"/>
-<img src="bogey_023.jpg" width="15%" alt="bogey_023.jpg"/>
-<img src="bogey_024.jpg" width="15%" alt="bogey_024.jpg"/>
-<img src="bogey_025.jpg" width="15%" alt="bogey_025.jpg"/>
-<img src="bogey_026.jpg" width="15%" alt="bogey_026.jpg"/>
-<img src="bogey_027.jpg" width="15%" alt="bogey_027.jpg"/>
-<img src="bogey_028.jpg" width="15%" alt="bogey_028.jpg"/>
-<img src="bogey_029.jpg" width="15%" alt="bogey_029.jpg"/>
-<img src="bogey_030.jpg" width="15%" alt="bogey_030.jpg"/>
-<img src="bogey_031.jpg" width="15%" alt="bogey_031.jpg"/>
-<img src="bogey_032.jpg" width="15%" alt="bogey_032.jpg"/>
-<img src="bogey_033.jpg" width="15%" alt="bogey_033.jpg"/>
-<img src="bogey_034.jpg" width="15%" alt="bogey_034.jpg"/>
-<img src="bogey_035.jpg" width="15%" alt="bogey_035.jpg"/>
-<img src="bogey_036.jpg" width="15%" alt="bogey_036.jpg"/>
-<img src="bogey_037.jpg" width="15%" alt="bogey_037.jpg"/>
-<img src="bogey_038.jpg" width="15%" alt="bogey_038.jpg"/>
-<img src="bogey_039.jpg" width="15%" alt="bogey_039.jpg"/>
-<img src="bogey_040.jpg" width="15%" alt="bogey_040.jpg"/>
-<img src="bogey_041.jpg" width="15%" alt="bogey_041.jpg"/>
-<img src="bogey_042.jpg" width="15%" alt="bogey_042.jpg"/>
-<img src="bogey_043.jpg" width="15%" alt="bogey_043.jpg"/>
-<img src="bogey_044.jpg" width="15%" alt="bogey_044.jpg"/>
-<img src="bogey_045.jpg" width="15%" alt="bogey_045.jpg"/>
-<img src="bogey_046.jpg" width="15%" alt="bogey_046.jpg"/>
-<img src="bogey_047.jpg" width="15%" alt="bogey_047.jpg"/>
-<img src="bogey_048.jpg" width="15%" alt="bogey_048.jpg"/>
-<img src="bogey_049.jpg" width="15%" alt="bogey_049.jpg"/>
-<img src="bogey_050.jpg" width="15%" alt="bogey_050.jpg"/>
-<img src="bogey_051.jpg" width="15%" alt="bogey_051.jpg"/>
-<img src="bogey_052.jpg" width="15%" alt="bogey_052.jpg"/>
-<img src="bogey_053.jpg" width="15%" alt="bogey_053.jpg"/>
-<img src="bogey_054.jpg" width="15%" alt="bogey_054.jpg"/>
-<img src="bogey_055.jpg" width="15%" alt="bogey_055.jpg"/>
-<img src="bogey_056.jpg" width="15%" alt="bogey_056.jpg"/>
-<img src="bogey_057.jpg" width="15%" alt="bogey_057.jpg"/>
-<img src="bogey_058.jpg" width="15%" alt="bogey_058.jpg"/>
-<img src="bogey_059.jpg" width="15%" alt="bogey_059.jpg"/>
-<img src="bogey_060.jpg" width="15%" alt="bogey_060.jpg"/>
-<img src="bogey_061.jpg" width="15%" alt="bogey_061.jpg"/>
-<img src="bogey_062.jpg" width="15%" alt="bogey_062.jpg"/>
-<img src="bogey_063.jpg" width="15%" alt="bogey_063.jpg"/>
-<img src="bogey_064.jpg" width="15%" alt="bogey_064.jpg"/>
-<img src="bogey_065.jpg" width="15%" alt="bogey_065.jpg"/>
-<img src="bogey_066.jpg" width="15%" alt="bogey_066.jpg"/>
-<img src="bogey_067.jpg" width="15%" alt="bogey_067.jpg"/>
-<img src="bogey_068.jpg" width="15%" alt="bogey_068.jpg"/>
-<img src="bogey_069.jpg" width="15%" alt="bogey_069.jpg"/>
-<img src="bogey_070.jpg" width="15%" alt="bogey_070.jpg"/>
-<img src="bogey_071.jpg" width="15%" alt="bogey_071.jpg"/>
-<img src="bogey_072.jpg" width="15%" alt="bogey_072.jpg"/>
-<img src="bogey_073.jpg" width="15%" alt="bogey_073.jpg"/>
-<img src="bogey_074.jpg" width="15%" alt="bogey_074.jpg"/>
-<img src="bogey_075.jpg" width="15%" alt="bogey_075.jpg"/>
-<img src="bogey_076.jpg" width="15%" alt="bogey_076.jpg"/>
-<img src="bogey_077.jpg" width="15%" alt="bogey_077.jpg"/>
-<img src="bogey_078.jpg" width="15%" alt="bogey_078.jpg"/>
+### Output
+<img src="./ffmpeg-out/bogey_001.jpg" width="15%" alt="bogey_001.jpg"/> <img src="./ffmpeg-out/bogey_002.jpg" width="15%" alt="bogey_002.jpg"/> <img src="./ffmpeg-out/bogey_003.jpg" width="15%" alt="bogey_003.jpg"/> <img src="./ffmpeg-out/bogey_004.jpg" width="15%" alt="bogey_004.jpg"/> <img src="./ffmpeg-out/bogey_005.jpg" width="15%" alt="bogey_005.jpg"/> <img src="./ffmpeg-out/bogey_006.jpg" width="15%" alt="bogey_006.jpg"/> <img src="./ffmpeg-out/bogey_007.jpg" width="15%" alt="bogey_007.jpg"/> <img src="./ffmpeg-out/bogey_008.jpg" width="15%" alt="bogey_008.jpg"/> <img src="./ffmpeg-out/bogey_009.jpg" width="15%" alt="bogey_009.jpg"/> <img src="./ffmpeg-out/bogey_010.jpg" width="15%" alt="bogey_010.jpg"/> <img src="./ffmpeg-out/bogey_011.jpg" width="15%" alt="bogey_011.jpg"/> <img src="./ffmpeg-out/bogey_012.jpg" width="15%" alt="bogey_012.jpg"/> <img src="./ffmpeg-out/bogey_013.jpg" width="15%" alt="bogey_013.jpg"/> <img src="./ffmpeg-out/bogey_014.jpg" width="15%" alt="bogey_014.jpg"/> <img src="./ffmpeg-out/bogey_015.jpg" width="15%" alt="bogey_015.jpg"/> <img src="./ffmpeg-out/bogey_016.jpg" width="15%" alt="bogey_016.jpg"/> <img src="./ffmpeg-out/bogey_017.jpg" width="15%" alt="bogey_017.jpg"/> <img src="./ffmpeg-out/bogey_018.jpg" width="15%" alt="bogey_018.jpg"/> <img src="./ffmpeg-out/bogey_019.jpg" width="15%" alt="bogey_019.jpg"/> <img src="./ffmpeg-out/bogey_020.jpg" width="15%" alt="bogey_020.jpg"/> <img src="./ffmpeg-out/bogey_021.jpg" width="15%" alt="bogey_021.jpg"/> <img src="./ffmpeg-out/bogey_022.jpg" width="15%" alt="bogey_022.jpg"/> <img src="./ffmpeg-out/bogey_023.jpg" width="15%" alt="bogey_023.jpg"/> <img src="./ffmpeg-out/bogey_024.jpg" width="15%" alt="bogey_024.jpg"/> <img src="./ffmpeg-out/bogey_025.jpg" width="15%" alt="bogey_025.jpg"/> <img src="./ffmpeg-out/bogey_026.jpg" width="15%" alt="bogey_026.jpg"/> <img src="./ffmpeg-out/bogey_027.jpg" width="15%" alt="bogey_027.jpg"/> <img src="./ffmpeg-out/bogey_028.jpg" width="15%" alt="bogey_028.jpg"/> <img src="./ffmpeg-out/bogey_029.jpg" width="15%" alt="bogey_029.jpg"/> <img src="./ffmpeg-out/bogey_030.jpg" width="15%" alt="bogey_030.jpg"/> <img src="./ffmpeg-out/bogey_031.jpg" width="15%" alt="bogey_031.jpg"/> <img src="./ffmpeg-out/bogey_032.jpg" width="15%" alt="bogey_032.jpg"/> <img src="./ffmpeg-out/bogey_033.jpg" width="15%" alt="bogey_033.jpg"/> <img src="./ffmpeg-out/bogey_034.jpg" width="15%" alt="bogey_034.jpg"/> <img src="./ffmpeg-out/bogey_035.jpg" width="15%" alt="bogey_035.jpg"/> <img src="./ffmpeg-out/bogey_036.jpg" width="15%" alt="bogey_036.jpg"/> <img src="./ffmpeg-out/bogey_037.jpg" width="15%" alt="bogey_037.jpg"/> <img src="./ffmpeg-out/bogey_038.jpg" width="15%" alt="bogey_038.jpg"/> <img src="./ffmpeg-out/bogey_039.jpg" width="15%" alt="bogey_039.jpg"/> <img src="./ffmpeg-out/bogey_040.jpg" width="15%" alt="bogey_040.jpg"/> <img src="./ffmpeg-out/bogey_041.jpg" width="15%" alt="bogey_041.jpg"/> <img src="./ffmpeg-out/bogey_042.jpg" width="15%" alt="bogey_042.jpg"/> <img src="./ffmpeg-out/bogey_043.jpg" width="15%" alt="bogey_043.jpg"/> <img src="./ffmpeg-out/bogey_044.jpg" width="15%" alt="bogey_044.jpg"/> <img src="./ffmpeg-out/bogey_045.jpg" width="15%" alt="bogey_045.jpg"/> <img src="./ffmpeg-out/bogey_046.jpg" width="15%" alt="bogey_046.jpg"/> <img src="./ffmpeg-out/bogey_047.jpg" width="15%" alt="bogey_047.jpg"/> <img src="./ffmpeg-out/bogey_048.jpg" width="15%" alt="bogey_048.jpg"/> <img src="./ffmpeg-out/bogey_049.jpg" width="15%" alt="bogey_049.jpg"/> <img src="./ffmpeg-out/bogey_050.jpg" width="15%" alt="bogey_050.jpg"/> <img src="./ffmpeg-out/bogey_051.jpg" width="15%" alt="bogey_051.jpg"/> <img src="./ffmpeg-out/bogey_052.jpg" width="15%" alt="bogey_052.jpg"/> <img src="./ffmpeg-out/bogey_053.jpg" width="15%" alt="bogey_053.jpg"/> <img src="./ffmpeg-out/bogey_054.jpg" width="15%" alt="bogey_054.jpg"/> <img src="./ffmpeg-out/bogey_055.jpg" width="15%" alt="bogey_055.jpg"/> <img src="./ffmpeg-out/bogey_056.jpg" width="15%" alt="bogey_056.jpg"/> <img src="./ffmpeg-out/bogey_057.jpg" width="15%" alt="bogey_057.jpg"/> <img src="./ffmpeg-out/bogey_058.jpg" width="15%" alt="bogey_058.jpg"/> <img src="./ffmpeg-out/bogey_059.jpg" width="15%" alt="bogey_059.jpg"/> <img src="./ffmpeg-out/bogey_060.jpg" width="15%" alt="bogey_060.jpg"/> <img src="./ffmpeg-out/bogey_061.jpg" width="15%" alt="bogey_061.jpg"/> <img src="./ffmpeg-out/bogey_062.jpg" width="15%" alt="bogey_062.jpg"/> <img src="./ffmpeg-out/bogey_063.jpg" width="15%" alt="bogey_063.jpg"/> <img src="./ffmpeg-out/bogey_064.jpg" width="15%" alt="bogey_064.jpg"/> <img src="./ffmpeg-out/bogey_065.jpg" width="15%" alt="bogey_065.jpg"/> <img src="./ffmpeg-out/bogey_066.jpg" width="15%" alt="bogey_066.jpg"/> <img src="./ffmpeg-out/bogey_067.jpg" width="15%" alt="bogey_067.jpg"/> <img src="./ffmpeg-out/bogey_068.jpg" width="15%" alt="bogey_068.jpg"/> <img src="./ffmpeg-out/bogey_069.jpg" width="15%" alt="bogey_069.jpg"/> <img src="./ffmpeg-out/bogey_070.jpg" width="15%" alt="bogey_070.jpg"/> <img src="./ffmpeg-out/bogey_071.jpg" width="15%" alt="bogey_071.jpg"/> <img src="./ffmpeg-out/bogey_072.jpg" width="15%" alt="bogey_072.jpg"/> <img src="./ffmpeg-out/bogey_073.jpg" width="15%" alt="bogey_073.jpg"/> <img src="./ffmpeg-out/bogey_074.jpg" width="15%" alt="bogey_074.jpg"/> <img src="./ffmpeg-out/bogey_075.jpg" width="15%" alt="bogey_075.jpg"/> <img src="./ffmpeg-out/bogey_076.jpg" width="15%" alt="bogey_076.jpg"/> <img src="./ffmpeg-out/bogey_077.jpg" width="15%" alt="bogey_077.jpg"/> <img src="./ffmpeg-out/bogey_078.jpg" width="15%" alt="bogey_078.jpg"/>
