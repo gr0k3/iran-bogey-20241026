@@ -4,7 +4,7 @@ Someone on Reddit suggests an [Israeli F-35 was seen over Daraa, Syria](https://
 Applying the [Sagan](https://en.wikipedia.org/wiki/Carl_Sagan) standard ([extraordinary claims require extraordinary evidence](https://en.wikipedia.org/wiki/Extraordinary_claims_require_extraordinary_evidence)), lets assume "no" and instead do what the military does and refer to the unidentified aircraft as a a "bogey" for the time being and see if can extract the answer from the video.
 
 <figure>
-    <kbd><img src="readme-bogey_010.png"></kbd>
+    <kbd><img src="readme-bogey_010.png"/></kbd>
     <figcaption>Original bogey video downloaded <a href="https://www.reddit.com/r/aviation/comments/1gcaxaj/israeli_f35_seen_over_daraa_syria_26_oct_2024/">from Reddit</a>.</figcaption>
 </figure>
 
